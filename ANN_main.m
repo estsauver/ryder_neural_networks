@@ -29,5 +29,16 @@ S_actual = Y(:,2);
 dXdT = diff(X_actual)./diff(T);
 dSdT = diff(S_actual)./diff(T);
 
+N_pop = 1;
+
+w_vect = rand(N_pop, 14);
+
+error = ANN(w_vect);
+
+
+GA = initialize
+
+
+
 
 

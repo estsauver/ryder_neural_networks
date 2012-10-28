@@ -1,4 +1,12 @@
 function dYdT = diffFerm(T, Y)
+%
+% dYdT = diffFerm(T,Y)
+% Returns derivative of state variable Y, where Y = [X; S];
+% T = non-dimensionalized time
+% X = non-dimensionalized cell mass concentration
+% S = non-dimensionalized substrate concentration
+% F = feed rate
+% K_m, K_i = parameters
 
 global K_m K_i v F F_0
 
